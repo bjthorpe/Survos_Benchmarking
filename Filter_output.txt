@@ -1,0 +1,263 @@
+### Computing Multiple Feature ###
+
+### compute_all_channel ###
+
+## Computing Feature si_hessian_det
+Begun Timing:
++ Loading data into memory
++ Rescaling data
++ Computing feature si_hessian_det
++ Computing Hessian Matrix
++ Padding data
+   - Computing gaussian (radius=(3, 3, 3))
+[GPU] Selected CUDA device: 1
+[GPU] Device 1: "Tesla V100-SXM3-32GB" with compute capability 7.0, 1024
++ Computing Hessian Determinant
++ Computing Hessian Matrix
++ Padding data
+   - Computing gaussian (radius=(9, 9, 9))
+[GPU] Reusing device (1) with 1024 threads
++ Computing Hessian Determinant
++ Computing Hessian Matrix
++ Padding data
+   - Computing gaussian (radius=(15, 15, 15))
+.[GPU] Reusing device (1) with 1024 threads
++ Computing Hessian Determinant
++ Computing Hessian Matrix
++ Padding data
+   - Computing gaussian (radius=(21, 21, 21))
+.[GPU] Reusing device (1) with 1024 threads
++ Computing Hessian Determinant
++ Computing Hessian Matrix
++ Padding data
+   - Computing gaussian (radius=(27, 27, 27))
+.[GPU] Reusing device (1) with 1024 threads
++ Computing Hessian Determinant
++ Normalizing feature
++ Calculating feature statistics
++ Saving feature into disk (100, 946, 946)
+Stoped Timing:
+30.186108589172363
++ Ready
+update_title_pos
+
+### Computing Multiple Feature ###
+
+### compute_all_channel ###
+
+## Computing Feature gauss
+Begun Timing:
++ Loading data into memory
++ Rescaling data
++ Computing feature gauss
++ Padding data
+   - Computing gaussian (radius=(6, 6, 6))
+.[GPU] Reusing device (1) with 1024 threads
++ Normalizing feature
++ Calculating feature statistics
++ Saving feature into disk (100, 946, 946)
+Stoped Timing:
+2.334550619125366
+
+## Computing Feature tv
+Begun Timing:
++ Loading data into memory
++ Rescaling data
++ Computing feature tv
+.[GPU] Reusing device (1) with 1024 threads
++ Normalizing feature
++ Calculating feature statistics
++ Saving feature into disk (100, 946, 946)
+Stoped Timing:
+3.25132417678833
+
+## Computing Feature gauss_norm
+Begun Timing:
++ Loading data into memory
++ Rescaling data
++ Computing feature gauss_norm
++ Padding data
+   - Computing gaussian (radius=(6, 6, 6))
+.[GPU] Reusing device (1) with 1024 threads
++ Padding data
+   - Computing gaussian (radius=(6, 6, 6))
+.[GPU] Reusing device (1) with 1024 threads
++ Normalizing feature
++ Calculating feature statistics
++ Saving feature into disk (100, 946, 946)
+Stoped Timing:
+5.4078590869903564
+
+## Computing Feature gauss_mag
+Begun Timing:
++ Loading data into memory
++ Rescaling data
++ Computing feature gauss_mag
++ Padding data
+   - Computing convolutions (radius=(18, 6, 6))
+.[GPU] Reusing device (1) with 1024 threads
++ Padding data
+   - Computing convolutions (radius=(6, 18, 6))
+.[GPU] Reusing device (1) with 1024 threads
++ Padding data
+   - Computing convolutions (radius=(6, 6, 18))
+.[GPU] Reusing device (1) with 1024 threads
++ Normalizing feature
++ Calculating feature statistics
++ Saving feature into disk (100, 946, 946)
+Stoped Timing:
+4.980635404586792
+
+## Computing Feature structure_eig
+Begun Timing:
++ Loading data into memory
++ Rescaling data
++ Computing feature structure_eig
++ Computing Structure Tensor
++ Padding data
+   - Computing gaussian (radius=(3, 3, 3))
+.[GPU] Reusing device (1) with 1024 threads
++ Padding data
+   - Computing gaussian (radius=(3, 3, 3))
+.[GPU] Reusing device (1) with 1024 threads
++ Padding data
+   - Computing gaussian (radius=(3, 3, 3))
+.[GPU] Reusing device (1) with 1024 threads
++ Padding data
+   - Computing gaussian (radius=(3, 3, 3))
+.[GPU] Reusing device (1) with 1024 threads
++ Padding data
+   - Computing gaussian (radius=(3, 3, 3))
+.[GPU] Reusing device (1) with 1024 threads
++ Padding data
+   - Computing gaussian (radius=(3, 3, 3))
+.[GPU] Reusing device (1) with 1024 threads
++ Computing Structure Tensor Eigenvalues
+.[GPU] Reusing device (1) with 1024 threads
++ Normalizing feature
++ Calculating feature statistics
++ Saving feature into disk (100, 946, 946)
+Stoped Timing:
+9.57119345664978
+
+## Computing Feature si_dog
+Begun Timing:
++ Loading data into memory
++ Rescaling data
++ Computing feature si_dog
++ Padding data
+   - Computing gaussian (radius=(3, 3, 3))
+.[GPU] Reusing device (1) with 1024 threads
++ Padding data
+   - Computing gaussian (radius=(5, 5, 5))
+.[GPU] Reusing device (1) with 1024 threads
++ Padding data
+   - Computing gaussian (radius=(8, 8, 8))
+.[GPU] Reusing device (1) with 1024 threads
++ Padding data
+   - Computing gaussian (radius=(12, 12, 12))
+.[GPU] Reusing device (1) with 1024 threads
++ Padding data
+   - Computing gaussian (radius=(20, 20, 20))
+.[GPU] Reusing device (1) with 1024 threads
++ Padding data
+   - Computing gaussian (radius=(31, 31, 31))
+.[GPU] Reusing device (1) with 1024 threads
++ Normalizing feature
++ Calculating feature statistics
++ Saving feature into disk (100, 946, 946)
+Stoped Timing:
+8.485097408294678
+
+## Computing Feature si_hessian_det
+Begun Timing:
++ Loading data into memory
++ Rescaling data
++ Computing feature si_hessian_det
++ Computing Hessian Matrix
++ Padding data
+   - Computing gaussian (radius=(3, 3, 3))
+.[GPU] Reusing device (1) with 1024 threads
++ Computing Hessian Determinant
++ Computing Hessian Matrix
++ Padding data
+   - Computing gaussian (radius=(9, 9, 9))
+.[GPU] Reusing device (1) with 1024 threads
++ Computing Hessian Determinant
++ Computing Hessian Matrix
++ Padding data
+   - Computing gaussian (radius=(15, 15, 15))
+.[GPU] Reusing device (1) with 1024 threads
++ Computing Hessian Determinant
++ Computing Hessian Matrix
++ Padding data
+   - Computing gaussian (radius=(21, 21, 21))
+.[GPU] Reusing device (1) with 1024 threads
++ Computing Hessian Determinant
++ Computing Hessian Matrix
++ Padding data
+   - Computing gaussian (radius=(27, 27, 27))
+.[GPU] Reusing device (1) with 1024 threads
++ Computing Hessian Determinant
++ Normalizing feature
++ Calculating feature statistics
++ Saving feature into disk (100, 946, 946)
+Stoped Timing:
+29.654655933380127
+
+## Computing Feature si_laplacian
+Begun Timing:
++ Loading data into memory
++ Rescaling data
++ Computing feature si_laplacian
++ Padding data
+   - Computing convolutions (radius=(3, 3, 3))
+.[GPU] Reusing device (1) with 1024 threads
++ Padding data
+   - Computing convolutions (radius=(3, 3, 3))
+.[GPU] Reusing device (1) with 1024 threads
++ Padding data
+   - Computing convolutions (radius=(3, 3, 3))
+.[GPU] Reusing device (1) with 1024 threads
++ Padding data
+   - Computing convolutions (radius=(9, 9, 9))
+.[GPU] Reusing device (1) with 1024 threads
++ Padding data
+   - Computing convolutions (radius=(9, 9, 9))
+.[GPU] Reusing device (1) with 1024 threads
++ Padding data
+   - Computing convolutions (radius=(9, 9, 9))
+.[GPU] Reusing device (1) with 1024 threads
++ Padding data
+   - Computing convolutions (radius=(15, 15, 15))
+.[GPU] Reusing device (1) with 1024 threads
++ Padding data
+   - Computing convolutions (radius=(15, 15, 15))
+.[GPU] Reusing device (1) with 1024 threads
++ Padding data
+   - Computing convolutions (radius=(15, 15, 15))
+.[GPU] Reusing device (1) with 1024 threads
++ Padding data
+   - Computing convolutions (radius=(21, 21, 21))
+.[GPU] Reusing device (1) with 1024 threads
++ Padding data
+   - Computing convolutions (radius=(21, 21, 21))
+.[GPU] Reusing device (1) with 1024 threads
++ Padding data
+   - Computing convolutions (radius=(21, 21, 21))
+.[GPU] Reusing device (1) with 1024 threads
++ Padding data
+   - Computing convolutions (radius=(27, 27, 27))
+.[GPU] Reusing device (1) with 1024 threads
++ Padding data
+   - Computing convolutions (radius=(27, 27, 27))
+.[GPU] Reusing device (1) with 1024 threads
++ Padding data
+   - Computing convolutions (radius=(27, 27, 27))
+.[GPU] Reusing device (1) with 1024 threads
++ Normalizing feature
++ Calculating feature statistics
++ Saving feature into disk (100, 946, 946)
+Stoped Timing:
+15.976990938186646
++ Ready

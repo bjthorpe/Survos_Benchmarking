@@ -1,0 +1,169 @@
+**** ORIGINAL IMAGE ****
+### Creating SuperVoxels.. ###
+### create_supervoxels ###
+Begin Timing:
++ Loading data into memory
++ Computing supervoxels
+.[GPU] Reusing device (1) with 1024 threads
++ 69452 supervoxels created
++ Writing supervoxels to disk (100, 946, 946)
++ Generating lookup table
++ Writing lookup table to disk (89491600,) (69452,)
++ Generating supervoxel graph
++ Extracted (881307, 2) unique edges
+End Timing:
+28.59589457511902
++ Ready
+update_title_pos
+update_title_pos
+
+**** GAUSIAN FILTER ****
+### Creating SuperVoxels.. ###
+### create_supervoxels ###
+Begin Timing:
++ Loading data into memory
++ Computing supervoxels
+.[GPU] Reusing device (1) with 1024 threads
++ 89268 supervoxels created
++ Writing supervoxels to disk (100, 946, 946)
++ Generating lookup table
++ Writing lookup table to disk (89491600,) (89268,)
++ Generating supervoxel graph
++ Extracted (723256, 2) unique edges
+End Timing:
+23.280475616455078
++ Ready
+update_title_pos
+update_title_pos
+
+**** TOTAL VARIATION ****
+### Creating SuperVoxels.. ###
+### create_supervoxels ###
+Begin Timing:
++ Loading data into memory
++ Computing supervoxels
+.[GPU] Reusing device (1) with 1024 threads
++ 892 supervoxels created
++ Writing supervoxels to disk (100, 946, 946)
++ Generating lookup table
++ Writing lookup table to disk (89491600,) (892,)
++ Generating supervoxel graph
++ Extracted (4494, 2) unique edges
+End Timing:
+17.612834930419922
++ Ready
+update_title_pos
+update_title_pos
+
+**** GAUSSIAN NORMALISATION ****
+### Creating SuperVoxels.. ###
+### create_supervoxels ###
+Begin Timing:
++ Loading data into memory
++ Computing supervoxels
+.[GPU] Reusing device (1) with 1024 threads
++ 83836 supervoxels created
++ Writing supervoxels to disk (100, 946, 946)
++ Generating lookup table
++ Writing lookup table to disk (89491600,) (83836,)
++ Generating supervoxel graph
++ Extracted (755690, 2) unique edges
+End Timing:
+24.507620334625244
++ Ready
+update_title_pos
+update_title_pos
+
+**** GAUSSIAN GRADIENT MAGNITUDE ****
+### Creating SuperVoxels.. ###
+### create_supervoxels ###
+Begin Timing:
++ Loading data into memory
++ Computing supervoxels
+.[GPU] Reusing device (1) with 1024 threads
++ 83836 supervoxels created
++ Writing supervoxels to disk (100, 946, 946)
++ Generating lookup table
++ Writing lookup table to disk (89491600,) (83836,)
++ Generating supervoxel graph
++ Extracted (755690, 2) unique edges
+End Timing:
+23.81056261062622
++ Ready
+
+**** STRUCT TENSOR EIGENVALUES ****
+### Creating SuperVoxels.. ###
+### create_supervoxels ###
+Begin Timing:
++ Loading data into memory
++ Computing supervoxels
+.[GPU] Reusing device (1) with 1024 threads
++ 72870 supervoxels created
++ Writing supervoxels to disk (100, 946, 946)
++ Generating lookup table
++ Writing lookup table to disk (89491600,) (72870,)
++ Generating supervoxel graph
++ Extracted (782261, 2) unique edges
+End Timing:
+25.53682804107666
++ Ready
+update_title_pos
+update_title_pos
+
+**** (SI) DIFFERENCE OF GAUSSIAN ****
+### Creating SuperVoxels.. ###
+### create_supervoxels ###
+Begin Timing:
++ Loading data into memory
++ Computing supervoxels
+.[GPU] Reusing device (1) with 1024 threads
++ 86528 supervoxels created
++ Writing supervoxels to disk (100, 946, 946)
++ Generating lookup table
++ Writing lookup table to disk (89491600,) (86528,)
++ Generating supervoxel graph
++ Extracted (701139, 2) unique edges
+End Timing:
+23.794195652008057
++ Ready
+update_title_pos
+update_title_pos
+
+**** (SI) DETERMINANT OF HESSIAN ****
+### Creating SuperVoxels.. ###
+### create_supervoxels ###
+Begin Timing:
++ Loading data into memory
++ Computing supervoxels
+.[GPU] Reusing device (1) with 1024 threads
++ 90250 supervoxels created
++ Writing supervoxels to disk (100, 946, 946)
++ Generating lookup table
++ Writing lookup table to disk (89491600,) (90250,)
++ Generating supervoxel graph
++ Extracted (584588, 2) unique edges
+End Timing:
+15.575272560119629
++ Ready
+update_title_pos
+update_title_pos
+
+
+**** (SI) LAPLACIAN OF GAUSSIAN *****
+### Creating SuperVoxels.. ###
+### create_supervoxels ###
+Begin Timing:
++ Loading data into memory
++ Computing supervoxels
+.[GPU] Reusing device (1) with 1024 threads
++ 89429 supervoxels created
++ Writing supervoxels to disk (100, 946, 946)
++ Generating lookup table
++ Writing lookup table to disk (89491600,) (89429,)
++ Generating supervoxel graph
++ Extracted (607988, 2) unique edges
+End Timing:
+21.836994647979736
++ Ready
+update_title_pos
+
